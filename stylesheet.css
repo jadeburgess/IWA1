@@ -23,6 +23,11 @@ body {
     text-align: center;
 }
 
+.header__title {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
 /* controls */
 
 .controls {
@@ -63,4 +68,11 @@ body {
 
 .counter__button_first {
     border-right: 1px solid var(--color-light-grey);
+}
+
+/* footer */
+
+.footer {
+    background: var(--color-dark-grey);
+    color: var(--color-light-grey);
 }
