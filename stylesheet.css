@@ -16,3 +16,22 @@ body {
     color: var(--color-white);
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
+
+/* header */
+
+.header { 
+    text-align: center;
+}
+
+/* controls */
+
+.controls {
+    background: yellow;
+}
+
+
+/* counter */
+
+.counter {
+    background: var(--color-dark-grey);
+}

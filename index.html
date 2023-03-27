@@ -15,13 +15,13 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
     </head>
     <body> 
-        <header>
+        <header class ="header">
             <h1>
                 Tally Count
             </h1>
         </header>
 
-        <div>
+        <aside class ="controls">
             <label>
                 <span>Display</span>
                 <select>
@@ -40,7 +40,13 @@
             </label>
 
             <button>Settings</button>
-        </div>
+        </aside>
         
+    <main class ="counter">
+            <input class="counter__value" readonly value="10">
+            <button class="counter__button">-</button>
+            <button class="counter__button">+</button>
+    </main>
+    <footer></footer>
     </body>
 </html>
