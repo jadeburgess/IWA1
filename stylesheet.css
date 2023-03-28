@@ -38,11 +38,11 @@ body {
 }
 
 /* controls */
-
+/*
 .controls {
     background: yellow;
 }
-
+/*
 
 /* counter */
 
@@ -69,6 +69,10 @@ body {
 .counter__button:active {
     background: var(--color-medium-grey);
     transform: translate(2%);
+}
+
+.counter__button:disabled {
+    opacity: 0.2;
 }
 
 .counter__button {
